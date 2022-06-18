@@ -1,0 +1,1 @@
+experiment_name,population_N,chromosomes_N,chromosomes_min,chromosomes_max,chromosomes_start,mutation_chance,best_frac,worst_frac,max_generations,objective_function,target,top_electrode_resistivity,bottom_electrode_resistivity,cell_area,density,cost_per_g
