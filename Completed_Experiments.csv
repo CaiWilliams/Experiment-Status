@@ -1,2 +1,3 @@
 ,experiment_name,population_N,chromosomes_N,chromosomes_min,chromosomes_max,chromosomes_start,mutation_chance,best_frac,worst_frac,max_generations,objective_function,target,top_electrode_resistivity,bottom_electrode_resistivity,cell_area,density,cost_per_g
 0,Test 1,5,4,"[0,0,0,0]","[1e9,1e9,1e9,1e9]","[1,1,1,1]",0.25,0.15,0.35,1,PCE,5,,,,,
+1,Test 2,5,4,"[0,0,0,0]","[1e9,1e9,1e9,1e9]","[1,1,1,1]",0.25,0.15,0.35,1,PCE_COST,5,1e-05,9.999999999999999e-31,,"[1,1,1,1]","[1,10,100,1000]"
