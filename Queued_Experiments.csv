@@ -1,7 +1,7 @@
-experiment_name,population_N,chromosomes_N,chromosomes_min,chromosomes_max,chromosomes_start,mutation_chance,best_frac,worst_frac,max_generations,objective_function,target,top_electrode_resistivity,bottom_electrode_resistivity,cell_area,density,cost_per_g,base_experiment
-P3HTPCBT_PCE,500,4,"[10e-9,10e-9,10e-9,10e-9]","[1e-6,1e-6,1e-6,1e-6]","[1e-7,1e-7,1e-7,1e-7]",03,0.1,0.2,100,PCE,1000,1e-4,2.65e-8,6.00005025e-6,"","",P3HTPCBM.json
-PM6Y6_PCE,500,4,"[10e-9,10e-9,10e-9,10e-9]","[1e-6,1e-6,1e-6,1e-6]","[1e-7,1e-7,1e-7,1e-7]",03,0.1,0.2,100,PCE,1000,1e-4,2.65e-8,6.00005025e-6,"","",PM6Y6.json
-PM6Y6_PCE_COST_400,500,4,"[10e-9,10e-9,10e-9,10e-9]","[1e-6,1e-6,1e-6,1e-6]","[1e-7,1e-7,1e-7,1e-7]",03,0.1,0.2,100,PCE_COST,1000,1e-4,2.65e-8,6.00005025e-6,"[7.14,1.011,1.3,2.7]","[28.68,7.08,400,0.233]",PM6Y6.json
-PM6Y6_PCE_COST_600,500,4,"[10e-9,10e-9,10e-9,10e-9]","[1e-6,1e-6,1e-6,1e-6]","[1e-7,1e-7,1e-7,1e-7]",03,0.1,0.2,100,PCE_COST,1000,1e-4,2.65e-8,6.00005025e-6,"[7.14,1.011,1.3,2.7]","[28.68,7.08,600,0.233]",PM6Y6.json
-PM6Y6_PCE_COST_800,500,4,"[10e-9,10e-9,10e-9,10e-9]","[1e-6,1e-6,1e-6,1e-6]","[1e-7,1e-7,1e-7,1e-7]",03,0.1,0.2,100,PCE_COST,1000,1e-4,2.65e-8,6.00005025e-6,"[7.14,1.011,1.3,2.7]","[28.68,7.08,800,0.233]",PM6Y6.json
-PM6Y6_PCE_COST_1000,500,4,"[10e-9,10e-9,10e-9,10e-9]","[1e-6,1e-6,1e-6,1e-6]","[1e-7,1e-7,1e-7,1e-7]",03,0.1,0.2,100,PCE_COST,1000,1e-4,2.65e-8,6.00005025e-6,"[7.14,1.011,1.3,2.7]","[28.68,7.08,1000,0.233]",PM6Y6.json
+experiment_name,base_experiment,population_N,chromosomes_N,chromosomes_min,chromosomes_max,chromosomes_start,mutation_chance,best_frac,worst_frac,max_generations,objective_function,target,top_electrode_resistivity,bottom_electrode_resistivity,cell_area,density,cost_per_g
+P3HTPCBT_PCE,P3HTPCBM.json,500,4,"[10e-9,10e-9,10e-9,10e-9]","[1e-6,1e-6,1e-6,1e-6]","[1e-7,1e-7,1e-7,1e-7]",3,0.1,0.2,100,PCE,1000,1.00E-04,2.65E-08,6.00E-06,,
+PM6Y6_PCE,PM6Y6.json,500,4,"[10e-9,10e-9,10e-9,10e-9]","[1e-6,1e-6,1e-6,1e-6]","[1e-7,1e-7,1e-7,1e-7]",3,0.1,0.2,100,PCE,1000,1.00E-04,2.65E-08,6.00E-06,,
+PM6Y6_PCE_COST_400,PM6Y6.json,500,4,"[10e-9,10e-9,10e-9,10e-9]","[1e-6,1e-6,1e-6,1e-6]","[1e-7,1e-7,1e-7,1e-7]",3,0.1,0.2,100,PCE_COST,1000,1.00E-04,2.65E-08,6.00E-06,"[7.14,1.011,1.3,2.7]","[28.68,7.08,400,0.233]"
+PM6Y6_PCE_COST_600,PM6Y6.json,500,4,"[10e-9,10e-9,10e-9,10e-9]","[1e-6,1e-6,1e-6,1e-6]","[1e-7,1e-7,1e-7,1e-7]",3,0.1,0.2,100,PCE_COST,1000,1.00E-04,2.65E-08,6.00E-06,"[7.14,1.011,1.3,2.7]","[28.68,7.08,600,0.233]"
+PM6Y6_PCE_COST_800,PM6Y6.json,500,4,"[10e-9,10e-9,10e-9,10e-9]","[1e-6,1e-6,1e-6,1e-6]","[1e-7,1e-7,1e-7,1e-7]",3,0.1,0.2,100,PCE_COST,1000,1.00E-04,2.65E-08,6.00E-06,"[7.14,1.011,1.3,2.7]","[28.68,7.08,800,0.233]"
+PM6Y6_PCE_COST_1000,PM6Y6.json,500,4,"[10e-9,10e-9,10e-9,10e-9]","[1e-6,1e-6,1e-6,1e-6]","[1e-7,1e-7,1e-7,1e-7]",3,0.1,0.2,100,PCE_COST,1000,1.00E-04,2.65E-08,6.00E-06,"[7.14,1.011,1.3,2.7]","[28.68,7.08,1000,0.233]"
